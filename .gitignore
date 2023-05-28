@@ -20,6 +20,7 @@ typechain
 typechain-types
 yarn.lock
 tsconfig.tsbuildinfo
+package-lock.json
 
 
 # Hardhat files
