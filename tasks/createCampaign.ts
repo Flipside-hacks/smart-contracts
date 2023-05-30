@@ -8,21 +8,21 @@ import { isTestnet, wallet } from "../config/constants";
 
 const { defaultAbiCoder } = utils;
 
-const campaignSatelliteAddr: any = "0x47A62Af19657263E3E0b60312f97F7464F70Ba35";
+const campaignSatelliteAddr: any = "0xD7eD610Cd566186C506076148F1Be52E09630dA9";
 
 let chains = isTestnet ? require("../config/testnet.json") : require("../config/local.json");
 
 let GovernanceTokenAddr = "0x63C69067938eB808187c8cCdd12D5Bcf0375b2Ac";
 //const BinanceDAOAddr = "0x558388D8Ebcf227D6cF1C1b8345754259800CA3F"
 
-const campaignManagerAddr = "0xb4439634ad988555F2a5EB3810ae589A353A2B77"
+const campaignManagerAddr = "0x5d99c3F30597759d26974b1A6b65510df300c3DD"
 
 //const spokeChainNames = ["Moonbeam", "Avalanche", "Ethereum", "Fantom", "Polygon"];
 
-const spokeChainNames = ["Polygon", "Avalanche"];
+const spokeChainNames = ["Fantom", "Avalanche"];
 const spokeChainIds: any = []; ethers
 
-let hubChain = 'Binance';
+let hubChain = 'Polygon';
 
 // const chain = chains.find((chain: any) => chain.name === hubChain);
 // const provider = getDefaultProvider(chain.rpc);
